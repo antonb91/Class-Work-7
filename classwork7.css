@@ -1,0 +1,14 @@
+.button {
+  display: inline-flex;
+  border: 2px solid blue;
+  padding: 10px 5px;
+  transition: transform 0.2s linear;
+}
+.button:hover {
+  transform: rotate(30deg);
+}
+.container {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
